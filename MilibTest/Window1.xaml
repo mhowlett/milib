@@ -1,0 +1,9 @@
+﻿<Window x:Class="MilibTest.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:GeneralCardOcr="clr-namespace:GeneralCardOcr"
+    Title="Window1" Height="500" Width="900">
+    <Grid>
+      <!--<GeneralCardOcr:ChartControl x:Name="aa" />-->
+    </Grid>
+</Window>

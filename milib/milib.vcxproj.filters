@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Functions">
+      <UniqueIdentifier>{cbbb5c0b-92de-4efe-825a-581166392322}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Storage">
+      <UniqueIdentifier>{3a5ae0ef-6539-4a34-8b60-a8c3fda3409c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unused">
+      <UniqueIdentifier>{9d61ac3c-3226-42be-9e3a-143c5f50cdab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="milib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="add_uniform_noise.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="average_column_gradient.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="average_column_intensity.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="average_row_intensity.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="blur_simple.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="cardscan_determine_card_bounds.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="cardscan_rectify_raw_image_high_gradient_error.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="copy.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="create.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="crop.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="cross_modify.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="delete_image.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="delete_series.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="draw_rectangle.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="generate_bounding_boxes.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="get_image.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="get_series.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="histogram.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="hough_gradient.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="hough_transform.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="invert.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="logical_and.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="overlay.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="pre_thin.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="rlsa.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="set_image.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="shear.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="size_double.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="size_halve.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="smooth_series.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="threshold.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="transpose.cpp">
+      <Filter>Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="image_store.cpp">
+      <Filter>Storage</Filter>
+    </ClCompile>
+    <ClCompile Include="series_store.cpp">
+      <Filter>Storage</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="milib.h">
+      <Filter>Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>Storage</Filter>
+    </ClInclude>
+    <ClInclude Include="image_store.h">
+      <Filter>Storage</Filter>
+    </ClInclude>
+    <ClInclude Include="series.h">
+      <Filter>Storage</Filter>
+    </ClInclude>
+    <ClInclude Include="series_store.h">
+      <Filter>Storage</Filter>
+    </ClInclude>
+    <ClInclude Include="RotateByShear.h">
+      <Filter>Unused</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
